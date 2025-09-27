@@ -25,10 +25,10 @@ app.get("/contact", (req, res) => {
 });*/
 
 
-// 3rd question
-/*app.get("/user/:id", (req, res) => {
+//3rd question
+app.get("/user/:id", (req, res) => {
   res.send(`User ID is ${req.params.id}`);
-});*/
+});
 
 
 // 4th question
